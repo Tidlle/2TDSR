@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View>
+    <View style={{alignSelf: "center", height: 230 , borderLeftWidth:  5, borderRightWidth: 5}}>
       <View style={estilos.containerCima}>
         <View style={[estilos.coresCima, {backgroundColor: 'white'}]}></View>
         <View style={[estilos.coresCima, {backgroundColor: 'yellow'}]}></View>
@@ -15,10 +15,10 @@ export default function App() {
         <StatusBar style="auto" />
       </View>
       <View style={estilos.containerBaixo}>
-        <View style={[estilos.coresBaixo, {backgroundColor: 'blue'}]}></View>
+        <View style={[estilos.coresBaixo, {backgroundColor: 'darkblue'}]}></View>
         <View style={[estilos.coresBaixo, {backgroundColor: 'white'}]}></View>
         <View style={[estilos.coresBaixo, {backgroundColor: 'purple'}]}></View>
-        <View style={[estilos.coresBaixo, {backgroundColor: 'black'}]}></View>
+        <View style={[estilos.coresBaixo, {backgroundColor: 'black', width: 170}]}></View>
         <StatusBar style="auto" />
       </View>
     </View>
@@ -39,14 +39,14 @@ const estilos = StyleSheet.create({
   },
   containerBaixo: {
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
     flexDirection: "row",
     margin: 0
   },
   coresBaixo: {
-    width: 50,
-    height: 40,
+    width: 60,
+    height: 50,
   },
 });
 
