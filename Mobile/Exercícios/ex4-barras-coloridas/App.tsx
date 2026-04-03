@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={{marginTop: 50, alignSelf: "center", height: 230, borderLeftWidth:  5, borderRightWidth: 5}}>
+    <View style={{alignSelf: "center", height: 230 , borderLeftWidth:  5, borderRightWidth: 5}}>
       <View style={estilos.containerCima}>
         <View style={[estilos.coresCima, {backgroundColor: 'white'}]}></View>
         <View style={[estilos.coresCima, {backgroundColor: 'yellow'}]}></View>

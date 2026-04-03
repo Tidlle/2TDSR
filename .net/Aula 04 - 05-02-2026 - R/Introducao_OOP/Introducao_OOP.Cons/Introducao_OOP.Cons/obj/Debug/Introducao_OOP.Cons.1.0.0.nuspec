@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Introducao_OOP.Cons</id>
+    <version>1.0.0</version>
+    <authors>Introducao_OOP.Cons</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="134a89e7e9ad1460ec0f3fbe5b3d08bd9c8dd646" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\educa\GitHub\2TDSR\.net\Introducao_OOP\Introducao_OOP.Cons\Introducao_OOP.Cons\bin\Debug\net10.0\Introducao_OOP.Cons.runtimeconfig.json" target="lib\net10.0\Introducao_OOP.Cons.runtimeconfig.json" />
+    <file src="C:\Users\educa\GitHub\2TDSR\.net\Introducao_OOP\Introducao_OOP.Cons\Introducao_OOP.Cons\bin\Debug\net10.0\Introducao_OOP.Cons.dll" target="lib\net10.0\Introducao_OOP.Cons.dll" />
+  </files>
+</package>
